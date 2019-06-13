@@ -1,0 +1,83 @@
+Hello Rory 
+
+
+Yes maybe that could be considered in a phase 2, I realised we might not have the budget for any changes at this point anyway 
+
+Thank You 
+
+Regards 
+Rizwana Habib 
+
+
+From: Nicolas Chetty 
+Sent: Thursday, 13 June 2019 10:11 AM
+To: Rizwana Habib <Rizwana.Habib@chillisoft.co.za>
+Subject: RE: Request for client contact information
+
+Hi Rizwana,
+
+Thank you for providing the information.
+
+We will currently be working on an email and telephone link, as well as displaying the company address.
+
+Would it be possible to add in the “How did you hear about us?” feature in a future Sprint?
+
+Thank you for your consideration.
+
+Regards,
+Rory Harmsworth
+
+ 
+Block 2 MRM Office Park, 10 Village Road, Kloof, 3610, KwaZulu Natal, South Africa
+086 100 0248 / +27 31 764 5233
+www.chillisoft.co.za
+Hot Software  |  Innovative by Design  |  Powered by Passion
+
+
+From: Rizwana Habib <Rizwana.Habib@chillisoft.co.za> 
+Sent: Thursday, June 13, 2019 10:04 AM
+To: Nicolas Chetty <Nicolas.Chetty@chillisoft.co.za>
+Subject: RE: Request for client contact information
+
+Good Day Rory 
+
+Requirements: 
+•	Telephone – 0861000248
+•	Query email- admin@chillisoft.com
+•	Address of company Block 2 MRM Office park, 10 Village Road Kloof 3610
+•	Contact Me form 
+•	How did you hear about us? 
+
+Regards 
+Rizwana Habib 
+
+
+From: Nicolas Chetty 
+Sent: Thursday, 13 June 2019 9:36 AM
+To: Rizwana Habib <Rizwana.Habib@chillisoft.co.za>
+Subject: Request for client contact information
+
+Hi 
+
+We are currently working on building the Contact Us page for your website. Kindly provide us with the details required for this page. 
+
+Requirements: 
+•	Telephone ?
+•	Department Telephone?
+•	Query email?
+•	Address of company?
+•	Contact Me form ?
+These were our thoughts for this page. Please advise us on which fields to include, as well as the relevant details. 
+
+Many Thanks
+
+Regards, 
+Rory Harmsworth
+
+ 
+Block 2 MRM Office Park, 10 Village Road, Kloof, 3610, KwaZulu Natal, South Africa
+086 100 0248 / +27 31 764 5233
+www.chillisoft.co.za
+Hot Software  |  Innovative by Design  |  Powered by Passion
+
+
