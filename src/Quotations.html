@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Rari Rentals | Quotations
+    </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> <img src="./images/logo.png" alt="ironman" width="100" height="50"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./AboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Services.html">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Quotations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ContactUs.html">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Quotations</h1>
+        <hr class="my-4">
+
+        <table>
+            <tr>
+                <td>Select Vehicle:</td>
+                <td>                    
+                    <select id="vehicleType" style="width: 150px">
+                        <option value="350">Ferrari</option>
+                        <option value="300">Lamborghini</option>
+                        <option value="250">Porsche</option>
+                        <option value="100">Ford</option>
+                        <option value="200">Limousine</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Trip Type:</td>
+                <td>
+                    <select id="tripType"  style="width: 150px">
+                        <option value="1">One Way</option>
+                        <option value="2">Return Trip</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Distance:</td>
+                <td><input id="distance" type="number" style="width: 150px"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="javascript:calcCost();">Submit</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Cost</td>
+                <td>
+                    <input id="cost" type="text"  style="width: 150px" readonly>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function calcCost() {
+            const rate = document.getElementById("vehicleType").value;
+            const tripType = document.getElementById("tripType").value;
+            const distance = document.getElementById("distance").value;
+            const cost = rate * tripType * distance;
+            document.getElementById("cost").value = "R " + cost;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
